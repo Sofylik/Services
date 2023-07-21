@@ -1,0 +1,16 @@
+:root{
+    --background-light: #fff;
+    --background-dark: #000;
+    --logo-color: #fed136;
+    --text-color: #777;
+    --name-color: #bbb;
+    --hover-color: #ffe100;
+}
+body{
+    width: 1000px;
+    padding: 0 29px;
+    font-family:'Montserrat', sans-serif;
+}
+ul{
+    color: var(--hover-color);
+}
