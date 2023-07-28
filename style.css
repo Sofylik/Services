@@ -1,9 +1,9 @@
 :root {
     --background-light: #fff;
-    --background-dark: #000;
-    --logo-color: #fed136;
+    --background-dark: #222;
+    --logo-color: #FED136;
     --text-color: #777;
-    --name-color: #bbb;
+    --name-color: #BBB;
     --hover-color: #ffe100;
 }
 
@@ -13,6 +13,72 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-ul {
-    color: var(--hover-color);
+.form {
+    background-color: var(--background-dark);
+}
+
+.contact-us {
+    color: var(--background-light);
+    text-transform: uppercase;
+}
+
+.form-button {
+    background-color: var(--logo-color);
+    padding: 20px 33px;
+    border-radius: 5px;
+    color: var(--background-light);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo {
+    color: var(--logo-color);
+    font-family: 'Bilbo Swash Caps';
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header-link {
+    color: var(--logo-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header {
+    margin-bottom: 92px;
+}
+
+.info-title {
+    color: var(--background-dark);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.info-item {
+    width: 274px;
+    text-align: center;
+}
+
+.info-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--background-dark);
+    line-height: 75px;
+}
+
+.info-text {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+}
+
+.info-list {
+    margin-bottom: 119px;
 }
